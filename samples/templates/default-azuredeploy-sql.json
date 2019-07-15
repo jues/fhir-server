@@ -84,14 +84,15 @@
         },
         "applicationInsightsLocation": {
             "type": "string",
-            "defaultValue": "eastus",
+            "defaultValue": "chinanorth",
             "allowedValues": [
                 "southeastasia",
                 "northeurope",
                 "westeurope",
                 "eastus",
                 "southcentralus",
-                "westus2"
+                "westus2",
+                "chinanorth"
             ]
         },
         "additionalFhirServerConfigProperties": {
